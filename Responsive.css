@@ -1,0 +1,236 @@
+@media (max-width: 800px){
+    .conteudo-principal{ /*formatacao do conteudo principal da pagina*/
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        padding-left: 10px;
+    }
+
+    .conteudo-secundario{ /*Formata o conteudo secundario com o uso do flex-box*/
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        gap: 24px;
+        margin-top: 30px;
+    }
+    .rodape-conteudo{ /*Define a formatacao do conteudo do rodape e seu espacamento, cor de fundo e remove o text decorations dos items*/
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-decoration: none;
+        justify-content: space-around;
+        background-color: rgba(0, 0, 0, 0.925);
+        color: rgba(253, 236, 214, 0.925);
+        padding-top: 88px;
+        padding-bottom: 65px;
+        
+    }
+    
+}
+@media (max-width: 480px){
+    .cabecalho{ /*Alinha e formata o cabecalho usando flex-box*/
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding: 24px;
+    }
+    
+    .cabecalho-imagem{ /*Redimenciona o logo da empresa*/
+        height: 52px;
+    }
+    
+    .cabecalho-menu{ /*define o espaco para o menu de navegacao*/
+        display: flex;
+        gap: 32px;
+    }
+    
+    .cabecalho-menu-item{ /*Formata o conteudo escrito do menu navegacao com fonte, tamanho e etc*/
+        font-family: 'Sarala', sans-serif;
+        color: bisque;
+        font-weight: 500;
+        font-size: 18px;
+    }
+    
+    .cabecalho-menu-item:hover{ /*Troca a cor ao passar o cursor acima dos items do cabecalho*/
+        color:#e6e6e6;
+    }
+    
+    .conteudo{ /*Cria a linha de divisao do cabecalho*/
+        margin-bottom: 48px;
+        border-top: 0.5px solid #ffffffc8;
+    }
+    
+    .conteudo-principal{ /*formatacao do conteudo principal da pagina*/
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding-left: 20px;
+    }
+    
+    .conteudo-principal-escrito{ /*Formataco do conteudo escrito referente ao .conteudo-principal*/
+        display: flex;
+        flex-direction: row;
+        gap: 32px;
+    }
+    
+    .conteudo-principal-escrito-titulo{ /*Formatado aqui o titulo de destaque da pagina*/
+        font-family: 'Libre Baskerville', serif, cursive;
+        font-weight: 400;
+        font-size: 64px;
+        color: #fffffff3;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .conteudo-principal-escrito-subtitulo{ /*Formatado aqui o subtitulo de destaque da pagina*/
+        font-family: 'Libre Baskerville', serif;
+        font-weight: 400;
+        font-size: 24px;
+        color: #d9d9d9f0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .conteudo-principal-escrito-botao{ /*Sao definitas as propriedades do botao,como tamanho,fonte,efeitos de sombra etc.*/
+        background-color: rgba(253, 236, 214, 0.925);
+        width: 190px;
+        height: 74px;
+        border: #000000a2;
+        box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.943);
+        border-radius: 14px;
+        font-family: 'Libre Baskerville', serif;
+        font-weight: 400;
+        font-size: 24px;
+        color: #000;
+        align-items: center;
+    }
+    
+    .conteudo-principal-escrito-botao:hover{ /*Funcao hover do botao caso o cursor passe acima*/
+        background-color: #e6e6e6;
+    }
+    
+    .conteudo-principal-imagem{ /*Redimenciona a imagem principal*/
+        height: auto;
+        width: 45%;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .conteudo-secundario{ /*Formata o conteudo secundario com o uso do flex-box*/
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 24px;
+        margin-top: 48px;
+    }
+    
+    .conteudo-secundario-titulo{ /*Cria uma linha para melhor alocar o conteudo visualmente e formata o titulo principal do conteudo secundario*/
+        border-top: 0.4px solid #ffffffc8;
+        padding-top: 48px;
+        font-family: 'Libre Baskerville', serif;
+        font-weight: 400;
+        font-size: 24px;
+        color: #181818c7;
+        margin-bottom: 16px;
+    }
+    
+    .conteudo-secundario-paragrafo{ /*Formata o conteudo dos paragrafos do conteudo secundario*/
+        font-family: 'Libre Baskerville', serif;
+        font-weight: 300;
+        font-size: 18px;
+        color: #181818c7;
+    }
+    
+    .rodape{ /*define a fonte e o tamanho da mesma no rodape*/
+        font-family: 'Libre Baskerville', serif;
+        font-size: 18px;
+     
+    }
+    
+    .rodape-conteudo{ /*Define a formatacao do conteudo do rodape e seu espacamento, cor de fundo e remove o text decorations dos items*/
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-decoration: none;
+        justify-content: space-around;
+        background-color: rgba(0, 0, 0, 0.925);
+        color: rgba(253, 236, 214, 0.925);
+        padding-top: 88px;
+        padding-bottom: 65px;
+        
+    }
+    
+    .rodape-conteudo-empresa-titulo{ /*Define o padding inferior da chamada empresa e a espessura da fonte*/
+    padding-bottom: 8px;
+    font-weight: 800;
+    }
+    
+    .conteudo-empresa-paragrafo{ /*Formata os topicos contidos na empresa adaptando com o design da pagina*/
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-decoration: none;
+        color: rgba(253, 236, 214, 0.925);
+        font-size: 12px;
+        padding-top: 6px;
+        font-weight: 800;
+    }
+    
+    .conteudo-empresa-paragrafo:hover{ /*Ativa a funcao de hover para os items da empresa*/
+        color:#e6e6e6;
+    }
+    
+    .rodape-comunidade-conteudo-titulo{ /*Define o padding inferior da chamada comunidade e a espessura da fonte*/
+    padding-bottom: 8px;
+    font-weight: 800;
+    }
+    
+    .conteudo-comunidade-paragrafo{ /*Formata os topicos contidos na comunidade adaptando com o design da pagina*/
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-decoration: none;
+        color: rgba(253, 236, 214, 0.925);
+        font-size: 12px;
+        padding-top: 6px;
+        font-weight: 800;
+    }
+    
+    .conteudo-comunidade-paragrafo:hover{ /*Ativa a funcao de hover para os items da comunidade*/
+        color:#e6e6e6;
+    }
+    
+    .rodape-conteudo-acervo-titulo{ /*Define o padding inferior da chamada acervo e a espessura da fonte*/
+    padding-bottom: 8px;
+    font-weight: 800;
+    }
+    
+    .conteudo-acervo-paragrafo{ /*Formata os topicos contidos no acervo adaptando com o design da pagina*/
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-decoration: none;
+        color: rgba(253, 236, 214, 0.925);
+        font-size: 12px;
+        padding-top: 6px;
+        font-weight: 800;
+    }
+    .conteudo-acervo-paragrafo:hover{ /*Ativa a funcao de hover para os items do acervo*/
+        color:#e6e6e6;
+    }
+    
+    .rodape-dados{ /*formata a parte do rodape onde serao inseridos o Cnpj etc*/
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: end;
+        background-color: rgba(251, 244, 235, 0.925);
+        color: rgba(0, 0, 0, 0.925);
+    
+    }
+}
